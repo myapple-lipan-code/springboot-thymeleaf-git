@@ -4,6 +4,15 @@ public class hq {
     private Integer id;
     private String name;
     private Integer age;
+    private String hq;
+
+    public String getHq() {
+        return hq;
+    }
+
+    public void setHq(String hq) {
+        this.hq = hq;
+    }
 
     public Integer getId() {
         return id;
