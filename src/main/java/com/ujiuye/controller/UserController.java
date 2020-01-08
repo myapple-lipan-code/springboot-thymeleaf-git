@@ -70,10 +70,13 @@ public class UserController {
         return "redirect:/";
     }
     public String test1(Long id) {
-        return "小白增加test1";
+        return "老鸟增加test1";
     }
-    public String test2(String name) {
-        return "小白增加test2";
+    public String test2(Integer id,long money) {
+        return "老鸟增加test2";
+    }
+    public String test3() {
+        return "老鸟增加test3";
     }
 
 
