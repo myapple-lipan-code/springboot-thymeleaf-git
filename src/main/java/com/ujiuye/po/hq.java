@@ -6,6 +6,15 @@ public class hq {
     private Integer age;
     private  String address;
     private String zipcode;
+    private  String Hq;
+
+    public String getHq() {
+        return Hq;
+    }
+
+    public void setHq(String hq) {
+        Hq = hq;
+    }
 
     public String getAddress() {
         return address;
