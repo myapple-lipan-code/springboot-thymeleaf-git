@@ -69,6 +69,15 @@ public class UserController {
         userService.delete(id);
         return "redirect:/";
     }
+    public String test1(Integer id) {
+        return "老鸟增加test1";
+    }
+    public String test2(Integer id,long money) {
+        return "老鸟增加test2";
+    }
+    public String test3() {
+        return "老鸟增加test3";
+    }
 
 
 }
