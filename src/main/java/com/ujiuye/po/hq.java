@@ -4,14 +4,23 @@ public class hq {
     private Integer id;
     private String name;
     private Integer age;
-    private String hq;
+    private  String address;
+    private String zipcode;
 
-    public String getHq() {
-        return hq;
+    public String getAddress() {
+        return address;
     }
 
-    public void setHq(String hq) {
-        this.hq = hq;
+    public void setAddress(String address) {
+        this.address = address;
+    }
+
+    public String getZipcode() {
+        return zipcode;
+    }
+
+    public void setZipcode(String zipcode) {
+        this.zipcode = zipcode;
     }
 
     public Integer getId() {
