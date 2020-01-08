@@ -69,6 +69,12 @@ public class UserController {
         userService.delete(id);
         return "redirect:/";
     }
+    public String test1(Long id) {
+        return "小白增加test1";
+    }
+    public String test2(String name) {
+        return "小白增加test2";
+    }
 
 
 }
